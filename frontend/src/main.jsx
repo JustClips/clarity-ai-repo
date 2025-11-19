@@ -7,7 +7,7 @@ import './index.css';
 
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
-const API_URL = 'https://YOUR-RAILWAY-BACKEND-DOMAIN.up.railway.app/graphql'; 
+const API_URL = 'https://clarityaiproduction.up.railway.app/'; 
 
 const client = new ApolloClient({
   uri: API_URL, 
